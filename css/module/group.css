@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.group-avatar {
+	background: #fff;
+	border: 1px solid #c8c8c8;
+	height: 136px;
+	padding: 3px;
+	width: 136px;
+}
+
+/* Group listing
+   ========================================================================== */
+.group-listing {
+	background: #fff;
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	min-height: 92px;
+	margin: 71px 0 0;
+	padding: 12px 12px 0 155px;
+	position: relative;
+}
+	.group-listing:first-child { margin-top: 48px; }
+
+	.group-listing .group-avatar {
+		left: 10px;
+		position: absolute;
+		top: -48px;
+	}
+
+.group-listing-info {
+	float: left;
+	width: 610px;
+}
+
+	.group-listing-info p { margin: 0; }
+	.group-listing-info h3:before, .group-profile-meta h3:before { content: none; }
+
+.group-listing-actions {
+	float: right;
+	margin: 13px 0 0;
+}
+
+	.group-listing-actions .btn-action { margin-right: 8px; }
+
+/* Group profile
+   ========================================================================== */
+.group-profile {
+	background: #fff;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	box-shadow: 0 1px 1px rgba(0,0,0,.09);
+
+	margin-top: 24px;
+}
+
+.group-cover-photo { border-radius: 5px 5px 0 0; }
+.group-profile-data { padding: 14px 1px 14px 14px; }
+
+/* Details */
+.group-profile-meta {
+	border-right: 1px solid #e5e5e5;
+	float: left;
+	margin: -14px 0 -14px 24px;
+	padding: 14px 14px 14px 0;
+	width: 570px;
+}
+
+	.group-profile-meta .btn-action { margin: 2px 0 0 12px; }
+
+.group-profile-name { margin: 0 0 12px; }
+
+.group-profile-description {
+	font-size: 13px;
+	margin-top: 0;
+}
+
+/* Social */
+.group-profile-social {
+	float: right;
+	padding: 0 24px;
+	width: 245px;
+}
+
+	.group-profile-social strong { 
+		display: block;
+		margin-bottom: 8px; 
+	}
+
+	.group-profile-social .btn-action {
+		margin: 8px 0 0;
+		width: 100%;
+	}
+
+		.group-profile-social .btn-action .ico {
+			float: left;
+			margin-top: 7px;
+		}

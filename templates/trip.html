@@ -1,0 +1,595 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Trip</title>
+
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/states.css" />
+		<link rel="stylesheet" href="../css/module/page.css" />
+		<link rel="stylesheet" href="../css/module/btn.css" />
+		<link rel="stylesheet" href="../css/module/ico.css" />
+		<link rel="stylesheet" href="../css/module/msg.css" />
+		<link rel="stylesheet" href="../css/module/nav.css" />
+		<link rel="stylesheet" href="../css/module/trip.css" />
+		<link rel="stylesheet" href="../css/module/waypoint.css" />
+	</head>
+	
+	<body>
+		<div class="wrapper">
+			<div class="container group">
+				<div class="content">
+					
+					<h2>Default trip styling</h2>
+
+					<div class="trip is-driver is-listing">
+						<ul class="trip-header group">
+							<li><i class="ico ico-19 ico-driver"></i></li>
+							<li class="trip-avatar">
+								<img src="http://lorempixel.com/50/50" alt="avatar" />
+								<i class="ico ico-26 ico-favorite"></i>
+							</li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+
+						<div class="trip-footer group">
+							<div class="left">
+								<span class="left">Közös ismerősök:</span>
+								<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+							</div>
+
+							<div class="trip-footer-groups right">
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<span class="right">Közös csoportok</span>
+							</div>
+						</div> <!-- .trip-footer -->
+					</div> <!-- .trip -->
+
+					<div class="trip is-passenger is-listing">
+						<ul class="trip-header">
+							<li><i class="ico ico-19 ico-passenger"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+
+						
+						<div class="trip-footer group">
+							<div class="left">
+								<span class="left">Közös ismerősök:</span>
+								<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+							</div>
+
+							<div class="trip-footer-groups right">
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<span class="right">Közös csoportok</span>
+							</div>
+						</div> <!-- .trip-footer -->
+					</div> <!-- .trip -->
+
+					<h2>Disabled trip styling</h2>
+
+					<div class="trip is-driver is-disabled is-listing">
+						<ul class="trip-header group">
+							<li><i class="ico ico-19 ico-driver"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+
+						<div class="trip-footer group">
+							<div class="left">
+								<span class="left">Közös ismerősök:</span>
+								<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+							</div>
+
+							<div class="trip-footer-groups right">
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<span class="right">Közös csoportok</span>
+							</div>
+						</div> <!-- .trip-footer -->
+					</div> <!-- .trip -->
+
+					<div class="trip is-passenger is-disabled is-listing">
+						<ul class="trip-header">
+							<li><i class="ico ico-19 ico-passenger"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+
+						
+						<div class="trip-footer group">
+							<div class="left">
+								<span class="left">Közös ismerősök:</span>
+								<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+							</div>
+
+							<div class="trip-footer-groups right">
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<span class="right">Közös csoportok</span>
+							</div>
+						</div> <!-- .trip-footer -->
+					</div> <!-- .trip -->
+
+					<h2>Trip with details</h2>
+
+					<div class="trip-mode-toggle btn-group group">
+			            <button class="btn btn-filter">Összes út</button>
+			            <button class="btn btn-filter current">Autóst keresek</button>
+			            <button class="btn btn-filter">Utast keresek</button>
+			        </div>
+
+					<div class="trip is-driver is-open is-listing">
+						<ul class="trip-header group">
+							<li><i class="ico ico-19 ico-driver"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+
+						
+						<div class="trip-footer group">
+							<div class="left">
+								<span class="left">Közös ismerősök:</span>
+								<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+							</div>
+
+							<div class="trip-footer-groups right">
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<span class="right">Közös csoportok</span>
+							</div>
+						</div> <!-- .trip-footer -->
+
+						<div class="trip-details group">
+							<div class="l-split group">
+								<div class="column">
+									<ul class="waypoints">
+										<li class="waypoint waypoint-small is-faded">
+											<i class="ico ico-26 ico-wp-regular"></i>
+
+											<div class="waypoint-address">
+												<strong>Budapest, III. ker</strong><br />
+												<span>III. ker, Bécsi út</span>
+											</div>
+
+											<strong class="waypoint-time">18:00</strong>
+										</li>
+
+										<li class="waypoint">
+											<i class="ico ico-pickup"></i>
+											<i class="ico ico-32 ico-wp-pickup"></i>
+
+											<div class="waypoint-address">
+												<h5><strong>Székesfehérvár</strong> <i class="ico ico-19 ico-help"></i></h5>
+												<span>Petőfi tér</span>
+											</div>
+
+											<strong class="waypoint-time epsilon">12:10</strong>
+										</li>
+
+										<li class="waypoint waypoint-small is-faded">
+											<i class="ico ico-26 ico-wp-regular"></i>
+
+											<div class="waypoint-address">
+												<strong>Balatonfűzfő</strong><br />
+												<span>Vasút utca</span>
+											</div>
+
+											<strong class="waypoint-time">12:55</strong>
+										</li>
+
+										<li class="waypoint">
+											<i class="ico ico-dropdown"></i>
+											<i class="ico ico-32 ico-wp-dropdown"></i>
+
+											<div class="waypoint-address">
+												<h5><strong>Révfülöp</strong> <i class="ico ico-19 ico-help"></i></h5>
+												<span>Arany János utca</span>
+											</div>
+
+											<strong class="waypoint-time epsilon">13:33</strong>
+										</li>
+									</ul> <!-- .waypoints -->
+
+									<div class="trip-traveler group">
+										<div class="trip-traveler-car">
+											<img src="http://lorempixel.com/84/94" alt="car" />
+
+											<div class="trip-traveler-car-details">
+												<h6><strong>Opel Vectra</strong></h6>
+												<span>2003, metálzöld</span>
+
+												<ul>
+													<li>Nem dohányzó</li>
+													<li>Autópályán megyek</li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="trip-traveler-remark">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices urna vel erat feugiat in feugiat mauris cras amet.</p>
+										</div>
+									</div> <!-- .trip-traveler -->
+
+									<a href="#" class="btn btn-primary">Tovább a foglaláshoz</a>
+								</div> <!-- .column -->
+
+								<div class="column">
+									<div class="trip-map">
+										<ul class="nav nav-tabs group">
+											<li class="wp-start"><a href="#">Beszállás</a></li>
+											<li class="wp-end"><a href="#">Kiszállás</a></li>
+											<li class="active wp-all"><a href="#">Teljes út</a></li>
+										</ul>
+										
+										<div class="trip-map-container">
+											<img src="http://lorempixel.com/437/401" alt="térkép" />
+										</div>
+									</div>
+								</div> <!-- .column -->
+							</div>
+						</div> <!-- .trip-details -->
+					</div> <!-- .trip -->
+
+
+					<div class="trip is-passenger is-open is-listing">
+						<ul class="trip-header group">
+							<li><i class="ico ico-19 ico-passenger"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+							<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+
+						
+						<div class="trip-footer group">
+							<div class="left">
+								<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+								<span class="left"><strong>6</strong> közös ismerősötök van:</span>
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+							</div>
+
+							<div class="trip-footer-groups right">
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<img src="http://lorempixel.com/20/20" alt="avatar" />
+								<span class="right">Közös csoportok</span>
+							</div>
+						</div> <!-- .trip-footer -->
+
+						<div class="trip-details group">
+							<div class="l-split group">
+								<div class="column">
+									<ul class="waypoints">
+										<li class="waypoint waypoint-small is-faded">
+											<i class="ico ico-26 ico-wp-regular"></i>
+
+											<div class="waypoint-address">
+												<strong>Budapest, III. ker</strong><br />
+												<span>III. ker, Bécsi út</span>
+											</div>
+
+											<strong class="waypoint-time">18:00</strong>
+										</li>
+
+										<li class="waypoint">
+											<i class="ico ico-pickup"></i>
+											<i class="ico ico-32 ico-wp-pickup"></i>
+
+											<div class="waypoint-address">
+												<h5><strong>Székesfehérvár</strong> <i class="ico ico-19 ico-help"></i></h5>
+												<span>Petőfi tér</span>
+											</div>
+
+											<strong class="waypoint-time epsilon">12:10</strong>
+										</li>
+
+										<li class="waypoint waypoint-small is-faded">
+											<i class="ico ico-26 ico-wp-regular"></i>
+
+											<div class="waypoint-address">
+												<strong>Balatonfűzfő</strong><br />
+												<span>Vasút utca</span>
+											</div>
+
+											<strong class="waypoint-time">12:55</strong>
+										</li>
+
+										<li class="waypoint">
+											<i class="ico ico-dropdown"></i>
+											<i class="ico ico-32 ico-wp-dropdown"></i>
+
+											<div class="waypoint-address">
+												<h5><strong>Révfülöp</strong> <i class="ico ico-19 ico-help"></i></h5>
+												<span>Arany János utca</span>
+											</div>
+
+											<strong class="waypoint-time epsilon">13:33</strong>
+										</li>
+									</ul> <!-- .waypoints -->
+
+									<div class="trip-traveler group">
+										<div class="trip-traveler-remark">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices urna vel erat feugiat in feugiat mauris cras amet.</p>
+										</div>
+									</div> <!-- .trip-traveler -->
+
+									<div class="msg is-note">
+										<i class="ico ico-22 ico-info"></i>
+										<p>Ha autós vagy, egy kattintással adhatsz fel hirdetést és küldheted el Lajos számára!</p>
+									</div>
+
+									<div class="msg is-alert">
+										<i class="ico ico-32 ico-warning"></i>
+										<p>Folytatáshoz írd be a keresőmezőbe pontos indulási helyed és célpontodat, majd nyomd meg újra a keres gombot!</p>
+									</div>
+
+									<a href="#" class="btn btn-primary">Hirdetés feladása + Útajánlat</a>
+								</div> <!-- .column -->
+
+								<div class="column">
+									<div class="trip-map">
+										<ul class="nav nav-tabs group">
+											<li class="wp-start"><a href="#">Beszállás</a></li>
+											<li class="wp-end"><a href="#">Kiszállás</a></li>
+											<li class="active wp-all"><a href="#">Teljes út</a></li>
+										</ul>
+										
+										<div class="trip-map-container">
+											<img src="http://lorempixel.com/437/401" alt="térkép" />
+										</div>
+									</div>
+								</div> <!-- .column -->
+							</div>
+						</div> <!-- .trip-details -->
+					</div> <!-- .trip -->
+
+					<div class="nav nav-pagination">
+						<a href="#" class="prev">Előző</a>
+						<span class="current">1</span>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<span>...</span>
+						<a href="#" class="ep">36</a>
+						<a href="#" class="next">Következő</a>
+					</div>
+
+
+					<h2>Trip with variable line-heights</h2>
+
+					<div class="trip is-driver is-own">
+						<ul class="trip-header">
+							<li><i class="ico ico-19 ico-driver"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong class="is-faded">Budapest</strong>
+								</h5>
+							</li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong>Székesfehérvár</strong>
+								</h5>
+							</li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong>Révfülöp</strong>
+								</h5>
+							</li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+					</div> <!-- .trip -->
+
+					<div class="trip is-driver is-own">
+						<ul class="trip-header">
+							<li><i class="ico ico-19 ico-driver"></i></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong class="is-faded">Budapest</strong>
+								</h5>
+							</li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong>Székesfehérvár</strong>
+								</h5>
+							</li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong>Révfülöp</strong>
+								</h5>
+							</li>
+							<li class="noborder right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+					</div> <!-- .trip -->
+
+					<div class="trip is-passenger is-own">
+						<ul class="trip-header">
+							<li><i class="ico ico-19 ico-passenger"></i></li>
+							<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+							<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong class="is-faded">Budapest</strong>
+								</h5>
+							</li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong>Székesfehérvár</strong>
+								</h5>
+							</li>
+							<li class="trip-waypoint">
+								<h5>
+									<strong>Révfülöp</strong>
+								</h5>
+							</li>
+							<li class="trip-toggle">
+								<a href="#" class="ico ico-toggle"></a>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-wallet"></i>
+								<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+							</li>
+							<li class="right">
+								<i class="ico ico-19 ico-person"></i>
+								<strong>3</strong> <span class="is-faded">szabad hely</span>
+							</li>
+						</ul>
+					</div> <!-- .trip -->
+				
+				</div>
+			</div>
+		</div> <!-- .wrapper -->
+	</body>
+</html>

@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Popovers</title>
+
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/states.css" />
+		<link rel="stylesheet" href="../css/module/btn.css" />
+		<link rel="stylesheet" href="../css/module/nav.css" />
+		<link rel="stylesheet" href="../css/module/ico.css" />
+		<link rel="stylesheet" href="../css/module/form.css" />
+		<link rel="stylesheet" href="../css/module/trip.css" />
+		<link rel="stylesheet" href="../css/module/waypoint.css" />
+		<link rel="stylesheet" href="../css/module/contract.css" />
+		<link rel="stylesheet" href="../css/module/popover.css" />
+	</head>
+	
+	<body>
+		<div class="container group">
+			<div class="content">
+				<h2>Popover</h2>
+
+				<h3>Hovercard</h3>
+				<div class="popover popover-hovercard" style="display: block;">
+					<div class="popover-content group">
+						<div class="hovercard-avatar">
+							<img src="http://lorempixel.com/70/70" alt="K. János" />
+						</div>
+
+						<div class="hovercard-data">
+							<h5>
+								<a href="#"><strong>K. János</strong></a>
+							 	<span class="hovercard-age">(18)</span>
+							</h5>
+
+							<ul>
+								<li>
+									<i class="ico ico-19 ico-thumb-up"></i>
+									72 pozitív értékelés
+								</li>
+
+								<li>
+									<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="hovercard-facebook" />
+									Kapcsolódva 365 ismerős
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<i class="popover-tip"></i>
+					<i class="popover-tip-shadow"></i>
+				</div> <!-- .popover -->
+
+				<br />
+				<h3>Beszállókártya</h3>
+				<br />
+
+				<div class="popover popover-contract" style="display: block;">
+					<div class="popover-content group">
+						<div class="contract">
+							<h4 class="contract-heading">1. Utas adatai</h4>
+
+							<div class="l-split group">
+								<div class="column nopadding">
+									<ul class="trip-header group">
+										<li><i class="ico ico-19 ico-driver"></i></li>
+										<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+										<li class="epsilon">K &bull; &bull; &bull; &bull; &bull; &bull; János</li>
+										<li class="epsilon noborder">
+											<i class="ico ico-22 ico-mobile"></i> 0620 &bull; &bull; &bull; &bull; &bull; &bull; &bull;
+										</li>
+									</ul>
+								</div>
+								
+								<div class="column nopadding">
+									<ul class="trip-header group">
+										<li>
+											<div class="trip-mutual">
+												<small>Közös ismerőseink:</small>
+												<img src="../images/icons/facebook-small.jpg" alt="">
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+											</div>
+
+											<div class="trip-mutual">
+												<small>Közös csoportjaink:</small>
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+												<img src="http://lorempixel.com/20/20" alt="" />
+											</div>
+										</li>
+										<li class="trip-car-info epsilon noborder right">
+											AB &bull; - &bull; &bull; &bull;
+
+											<img src="http://lorempixel.com/38/38" alt="BMW 3" class="trip-car-avatar" />
+
+											<div class="trip-car-features">
+												<i class="ico ico-22 ico-smoking"></i>
+												<i class="ico ico-22 ico-motorway"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div> <!-- .l-split -->
+
+							<h4 class="contract-heading">2. Utazás részletei</h4>
+							
+							<div class="trip-details group">
+								<div class="l-split group">
+									<div class="column">
+										<ul class="waypoints">
+											<li class="waypoint waypoint-small is-faded">
+												<i class="ico ico-26 ico-wp-regular"></i>
+
+												<div class="waypoint-address">
+													<strong>Budapest, III. ker</strong><br />
+													<span>III. ker, Bécsi út</span>
+												</div>
+
+												<strong class="waypoint-time">18:00</strong>
+											</li>
+
+											<li class="waypoint">
+												<i class="ico ico-pickup"></i>
+												<i class="ico ico-32 ico-wp-pickup"></i>
+
+												<div class="waypoint-address">
+													<h5><strong>Székesfehérvár</strong> <i class="ico ico-19 ico-help"></i></h5>
+													<span>Petőfi tér</span>
+												</div>
+
+												<strong class="waypoint-time epsilon">12:10</strong>
+											</li>
+
+											<li class="waypoint waypoint-small is-faded">
+												<i class="ico ico-26 ico-wp-regular"></i>
+
+												<div class="waypoint-address">
+													<strong>Balatonfűzfő</strong><br />
+													<span>Vasút utca</span>
+												</div>
+
+												<strong class="waypoint-time">12:55</strong>
+											</li>
+
+											<li class="waypoint">
+												<i class="ico ico-dropdown"></i>
+												<i class="ico ico-32 ico-wp-dropdown"></i>
+
+												<div class="waypoint-address">
+													<h5><strong>Révfülöp</strong> <i class="ico ico-19 ico-help"></i></h5>
+													<span>Arany János utca</span>
+												</div>
+
+												<strong class="waypoint-time epsilon">13:33</strong>
+											</li>
+										</ul> <!-- .waypoints -->
+
+										<div class="trip-traveler group">
+											<div class="trip-traveler-remark">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices urna vel erat feugiat in feugiat mauris cras amet.</p>
+											</div>
+										</div> <!-- .trip-traveler -->
+									</div> <!-- .column -->
+
+									<div class="column">
+										<div class="trip-map">
+											<ul class="nav nav-tabs group">
+												<li class="wp-start"><a href="#">Beszállás</a></li>
+												<li class="wp-end"><a href="#">Kiszállás</a></li>
+												<li class="active wp-all"><a href="#">Teljes út</a></li>
+											</ul>
+											
+											<div class="trip-map-container">
+												<img src="http://lorempixel.com/437/401" alt="térkép" />
+											</div>
+										</div>
+									</div> <!-- .column -->
+								</div>
+
+								<div class="contract-conversation">
+									<ul>
+										<li>
+											<div class="contract-conversation-avatar">
+												<img src="http://lorempixel.com/32/32" alt="" />
+											</div>
+
+											<div class="contract-conversation-message">
+												<p>
+													<strong>Utas Lajos:</strong> Ok, akkor hozom a bringám, ha tényleg nem gond! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+												</p>
+											</div>
+
+											<div class="contract-conversation-time text-right is-faded"><span>10:43</span></div>
+										</li>
+
+										<li>
+											<div class="contract-conversation-avatar">
+												<img src="http://lorempixel.com/31/31" alt="" />
+											</div>
+
+											<div class="contract-conversation-message">
+												<input type="text" class="input-wide" />
+											</div>
+
+											<div class="contract-conversation-time text-right">
+												<a href="#" class="btn btn-small btn-action">Elküld</a>
+											</div>
+										</li>
+									</ul>
+								</div> <!-- .contract-conversation -->
+							</div> <!-- .trip-details -->
+
+							<h4 class="contract-heading">3. Fizetési összesítő</h4>
+							
+							<div class="contract-footer l-split group">
+								<div class="contract-payment column">
+									<table class="table">
+										<tfoot>
+											<tr>
+												<td class="zeta">Induláskor készpénzben fizetendő a sofőrnek:</td>
+												<td class="epsilon text-right"><strong>3600 Ft</strong></td>
+											</tr>
+										</tfoot>
+										<tbody>
+											<tr>
+												<td>Útiköltség hozzájárulás:</td>
+												<td class="text-right">1800 Ft / fő</td>
+											</tr>
+											<tr>
+												<td>Foglalt helyeid száma:</td>
+												<td class="text-right">2 db</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<button class="btn btn-primary btn-wide">Foglalás elküldése</button>
+								</div>
+
+								<div class="contract-next-steps column">
+									<strong>
+										Mi történik miután elküldtem az útajánlatot?
+										<i class="ico ico-22 ico-info right"></i>
+									</strong>
+
+									<ul class="list">
+										<li>U. Lajos e-mail értesítőt kap ajánlatodról</li>
+										<li><strong>Ha elfogadod</strong> foglalását, látni fogjátok egymás teljes nevét és telefonszámát is</li>
+										<li>Az üzenőfal és a térkép segítségével könnyedén <strong>egyeztethetitek a részleteket</strong></li>
+										<li>Közvetlenül telefonon is fölvehetitek a kapcsolatot</li>
+									</ul>
+
+									<strong>Indulhat az utazás!</strong>
+								</div>
+							</div> <!-- .l-split -->
+						</div>  <!-- .contract -->
+					</div> <!-- .popover-content -->
+
+					<i class="popover-tip direction-up"></i>
+					<i class="popover-tip-shadow direction-up"></i>
+
+					</div>
+				</div> <!-- .popover-contract -->
+			</div>
+		</div>
+	</body>
+</html>

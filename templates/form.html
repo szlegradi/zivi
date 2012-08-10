@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Forms</title>
+
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/states.css" />
+		<link rel="stylesheet" href="../css/module/form.css" />
+	</head>
+	
+	<body>
+		<div class="container group">
+			<div class="content">
+
+				<h2>Horizontal form</h2>
+				<form action="#">
+					<div class="control-group">
+						<label class="control-label" for="firstname">Vezetéknév:</label>
+						<div class="controls">
+							<input type="text" />
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="year">Születési év:</label>
+						<div class="controls">
+							<select name="year" id="year">
+								<option value="2012">2012</option>
+							</select>
+
+							<input type="text" />
+							<input type="password" />
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="test">Nem:</label>
+						<div class="controls">
+							<label class="checkbox control-inline" for="male">
+								<input type="checkbox" id="male" />
+								Férfi
+							</label>
+
+							<label class="checkbox control-inline" for="female">
+								<input type="checkbox" id="female" />
+								Nő
+							</label>
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="radiotest">Teszt:</label>
+						<div class="controls">
+							<label class="radio control-inline" for="male">
+								<input type="radio" id="male" />
+								Férfi
+							</label>
+
+							<label class="radio control-inline" for="female">
+								<input type="radio" id="female" />
+								Nő
+							</label>
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="test">Nem:</label>
+						<div class="controls">
+							<label class="checkbox" for="male2">
+								<input type="checkbox" id="male2" />
+								Férfi
+							</label>
+
+							<label class="checkbox" for="female2">
+								<input type="checkbox" id="female2" />
+								Nő
+							</label>
+						</div>
+					</div>
+				</form>
+
+				<h3>Input sizes</h3>
+				<div class="control-group">
+					<label class="control-label" for="firstname">Mini:</label>
+					<div class="controls">
+						<input type="text" class="input-mini" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Small:</label>
+					<div class="controls">
+						<input type="text" class="input-small" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Medium (default):</label>
+					<div class="controls">
+						<input type="text" class="input-medium" />
+						<span class="help-inline">Segítő szöveg, ami az inputokkal egy vonalban jelenik meg.</span>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Large:</label>
+					<div class="controls">
+						<input type="text" class="input-large" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">X Large:</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">XX Large:</label>
+					<div class="controls">
+						<input type="text" class="input-xxlarge" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Wide:</label>
+					<div class="controls">
+						<input type="text" class="input-wide" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">X Large:</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge" />
+						<p class="help-block">Segítő szöveg, ami az inputok alatt jelenik meg.</p>
+					</div>
+				</div>
+
+				<h3>Input styles</h3>
+				<div class="control-group">
+					<label class="control-label" for="firstname">Mini:</label>
+					<div class="controls">
+						<input type="text" class="input-mini input-rounded" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Small:</label>
+					<div class="controls">
+						<input type="text" class="input-small input-rounded" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Medium (default):</label>
+					<div class="controls">
+						<input type="text" class="input-medium input-rounded" />
+						<span class="help-inline">Segítő szöveg, ami az inputokkal egy vonalban jelenik meg.</span>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Large:</label>
+					<div class="controls">
+						<input type="text" class="input-large input-rounded" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">X Large:</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge input-rounded" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">XX Large:</label>
+					<div class="controls">
+						<input type="text" class="input-xxlarge input-rounded" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="firstname">Wide:</label>
+					<div class="controls">
+						<input type="text" class="input-wide input-rounded" />
+					</div>
+				</div>
+
+				<h2>Vertical form</h2>
+				<form action="#" class="form-vertical">
+					<div class="control-group">
+						<label for="v1" class="control-label">Input</label>
+						<div class="controls">
+							<input type="text" class="input-medium" />
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label for="v1" class="control-label">Checkbox</label>
+						<div class="controls">
+							<label for="" class="checkbox">
+								<input type="checkbox" /> Checkbox 1
+								<span class="help-inline">Lorem ipsum dolor sit amet</span>
+							</label>
+
+							<label for="" class="checkbox">
+								<input type="checkbox" /> Checkbox 2
+								<span class="help-inline">Lorem ipsum dolor sit amet</span>
+							</label>
+
+							<label for="" class="checkbox">
+								<input type="checkbox" /> Checkbox 3
+								<span class="help-inline">Lorem ipsum dolor sit amet</span>
+							</label>
+						</div>
+					</div>
+
+
+					<div class="control-group">
+						<label for="v1" class="control-label">Radio</label>
+						<div class="controls">
+							<label for="" class="radio">
+								<input type="radio" /> Radio 1
+							</label>
+
+							<label for="" class="radio">
+								<input type="radio" /> Radio 2
+							</label>
+
+							<label for="" class="radio">
+								<input type="radio" /> Radio 3
+							</label>
+						</div>
+					</div>
+				</form>
+
+				<h2>Inline form</h2>
+
+				<form action="#" class="form-inline">
+					<input type="text" class="input-small" />
+					<input type="password" class="input-small" />
+					<label for="" class="checkbox">
+						<input type="checkbox" /> Remember me
+					</label>
+					<button type="submit">Sign in</button>
+				</form>
+
+				<br>
+
+			</div>
+		</div>
+	</body>
+</html>

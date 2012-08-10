@@ -1,0 +1,234 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+/* Icon sizes
+   ========================================================================== */
+.ico {
+	background-repeat: no-repeat;
+	display: inline-block;
+	*display: inline;
+	line-height: 0;
+	margin-top: -1px;
+	vertical-align: middle;
+	*zoom: 1;
+}
+
+.ico-19 {
+	height: 19px;
+	width: 19px;
+}
+
+.ico-22 {
+	height: 22px;
+	width: 22px;
+}
+
+.ico-26 {
+	height: 26px;
+	width: 26px;
+}
+
+.ico-32 {
+	height: 33px;
+	width: 32px;
+}
+
+.ico-48 {
+	height: 48px;
+	width: 48px;
+}
+
+/* Icon definitions
+   ========================================================================== */
+.ico-add {
+	background-image: url(../../images/icons/19x19/add.png);
+}
+
+.ico-calendar {
+	background-image: url(../../images/icons/19x19/calendar.png);
+}
+
+.ico-clock {
+	background-image: url(../../images/icons/19x19/clock.png);
+}
+
+.ico-close {
+	background-image: url(../../images/icons/19x19/close.png);
+}
+
+.ico-credit-card {
+	background-image: url(../../images/icons/19x19/credit-card.png);
+}
+
+.ico-download {
+	background-image: url(../../images/icons/19x19/download.png);
+}
+
+.ico-driver {
+	background-image: url(../../images/icons/19x19/driver.png);
+}
+.ico-22.ico-driver {
+	background-image: url(../../images/icons/22x22/driver.png);
+}
+
+.ico-favorite {
+	background-image: url(../../images/icons/26x26/favorite.png);
+}
+
+.ico-flag {
+	background-image: url(../../images/icons/22x22/flag.png);
+}
+
+.ico-fb {
+	background-image: url(../../images/icons/19x19/facebook.png);	
+}
+
+.ico-fix {
+	background-image: url(../../images/icons/22x22/fix.png);
+}
+
+.ico-flexible {
+	background-image: url(../../images/icons/22x22/flexible.png);
+}
+
+.ico-info {
+	background-image: url(../../images/icons/22x22/info.png);
+}
+
+.ico-help {
+	background-image: url(../../images/icons/19x19/help.png);
+}
+
+.ico-lock {
+	background-image: url(../../images/icons/22x22/lock.png);
+}
+
+.ico-old-trips {
+	background-image: url(../../images/icons/old-trip.jpg);
+	height: 19px;
+	position: absolute;
+	right: 0;
+	top: 11px;
+	width: 45px;
+}
+.ico-old-trips:hover, .ico-old-trips.is-open {
+	background-position: 0 -21px;
+}
+
+.ico-mobile {
+	background-image: url(../../images/icons/22x22/mobile.png);
+}
+
+.ico-passenger {
+	background-image: url(../../images/icons/19x19/passenger.png);
+}
+.ico-22.ico-passenger {
+	background-image: url(../../images/icons/22x22/passenger.png);
+}
+
+.ico-pencil {
+	background-image: url(../../images/icons/pencil.png);
+	height: 20px;
+	width: 16px;
+}
+	.btn:hover .ico-pencil, .ico-pencil:hover { background-image: url(../../images/icons/pencil-hover.png); }
+
+.ico-person {
+	background-image: url(../../images/icons/19x19/person.png);
+}
+
+.ico-reply {
+	background-image: url(../../images/icons/22x22/reply.png);
+}
+
+.ico-scheduled {
+	background-image: url(../../images/icons/22x22/scheduled.png);
+}
+
+.ico-seat {
+	background-image: url(../../images/icons/32x33/seat.png);
+}
+
+.ico-thumb-up {
+	background-image: url(../../images/icons/19x19/thumb-up.png);
+}
+
+.ico-tick {
+	background-image: url(../../images/icons/tick.png);
+	height: 21px;
+	width: 25px;
+}
+
+.ico-unlock {
+	background-image: url(../../images/icons/22x22/unlock.png);
+}
+
+.ico-wallet {
+	background-image: url(../../images/icons/19x19/wallet.png);
+}
+
+.ico-warning {
+	background-image: url(../../images/icons/32x33/warning.png);
+}
+
+.ico-motorway {
+	background-image: url(../../images/icons/22x22/motorway.png);
+}
+
+.ico-smoking {
+	background-image: url(../../images/icons/22x22/smoking.png);
+}
+
+/* Waypoints
+   ========================================================================== */
+.ico-pickup, .ico-dropdown {
+	height: 25px;
+	width: 27px;
+}
+
+.ico-pickup { background-image: url(../../images/icons/pickup.png); }
+.ico-dropdown { background-image: url(../../images/icons/dropdown.png); }
+
+.ico-26.ico-wp-regular {
+	background-image: url(../../images/icons/26x26/wp-regular.png);
+}
+
+.ico-26.ico-wp-pickup {
+	background-image: url(../../images/icons/26x26/wp-pickup.png);
+}
+
+.ico-26.ico-wp-dropdown {
+	background-image: url(../../images/icons/26x26/wp-dropdown.png);
+}
+
+.ico-32.ico-wp-regular {
+	background-image: url(../../images/icons/32x33/wp-regular.png);
+}
+
+.ico-32.ico-wp-pickup {
+	background-image: url(../../images/icons/32x33/wp-pickup.png);
+}
+
+.ico-32.ico-wp-dropdown {
+	background-image: url(../../images/icons/32x33/wp-dropdown.png);
+}
+
+.ico-32.ico-wp-passenger {
+	background-image: url(../../images/icons/32x33/wp-passenger.png);
+}
+
+/* Toggle
+   ========================================================================== */
+.ico-toggle {
+	background-image: url(../../images/icons/toggle-plus.png);
+	height: 34px;
+	width: 34px;
+}
+
+	.is-driver:not(.is-disabled) .trip-header:hover .ico-toggle { background-image: url(../../images/icons/toggle-plus-driver.png); }
+	.is-passenger:not(.is-disabled) .trip-header:hover .ico-toggle { background-image: url(../../images/icons/toggle-plus-passenger.png); }
+
+	.is-driver.is-open:not(.is-disabled) .ico-toggle { background-image: url(../../images/icons/toggle-minus-driver.png); }
+	.is-passenger.is-open:not(.is-disabled) .ico-toggle { background-image: url(../../images/icons/toggle-minus-passenger.png); }

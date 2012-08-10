@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.form-search {
+	background: url(../../images/bg-search.jpg) repeat-x;
+	border-radius: 5px;
+	height: 99px;
+	margin: 0 0 24px;
+	padding: 22px 0 0 22px;
+}
+
+	.form-search div {
+		display: inline-block;
+		margin: 0 4px 0 0;
+		position: relative;
+	}
+
+	.form-search input {
+		background: url(../../images/form-search.png) no-repeat;
+		border: 0;
+		
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+
+		color: #fff;
+		font-size: 18px;
+		font-style: italic;
+		height: 56px;
+		text-shadow: 0 1px 0 #497200;
+	}
+
+	.form-search input:focus {
+		color: #3f3f3f;
+		font-style: normal;
+		font-weight: bold;
+		text-shadow: none;
+	}
+
+	.form-search input::-webkit-input-placeholder { color: #fff; }
+	.form-search input:focus::-webkit-input-placeholder { color: #3f3f3f; }
+	.form-search input:-moz-placeholder { color: #fff; }
+	.form-search input:focus:-moz-placeholder { color: #3f3f3f; }
+
+	.form-search .start, .form-search .destination { 
+		color: #fff;
+		width: 316px; 
+	}
+	.form-search .date, .form-search .date:focus { 
+		background-position: -643px 0;
+		color: #fff;
+		font-style: normal;
+		font-weight: bold;
+		padding-left: 55px;
+		text-shadow: 0 1px 0 #497200;
+		width: 230px;
+	}
+
+	.search-start input, .search-destination input {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	.search-start input:focus { background-position: 0 -57px; }
+
+	.search-destination input { background-position: -327px 0; }
+	.search-destination input:focus { background-position: -327px -57px; }
+
+	.search-btn {
+		background: url(../../images/form-search.png) no-repeat -643px -57px;
+		border-radius: 0;
+
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+
+		height: 59px;
+		margin: 0 0 0 16px;
+		padding: 0;
+		position: relative;
+		top: -4px;
+		width: 58px;
+	}
+
+	.search-btn:hover {
+		background-position: -816px -57px;
+	}
+
+/* Address panels
+   ========================================================================== */
+#lnkStartPlaces, #lnkEndPlaces,
+#startaddresspanel, #endaddresspanel {
+	position: absolute;
+}

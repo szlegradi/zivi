@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.ad-waypoints { margin-top: 24px; }
+.ad-waypoints .waypoint { min-height: 75px; }
+
+.ad-waypoints .waypoint-add-fix,
+.ad-waypoints .waypoint-fix { min-height: 45px; }
+
+.ad-waypoints .waypoint > .ico {
+	position: relative;
+	top: 22px;
+}
+
+/* Fix waypoints */
+.ad-waypoints .waypoint-add-fix {
+	margin-top: -7px;
+	padding-left: 35px;
+}
+
+.ad-waypoints .waypoint-fix > .ico { top: 0; }
+.ad-waypoints .waypoint-fix .ico-close {
+	left: 370px;
+	position: absolute;
+	top: 8px;
+}
+
+/* Sections
+   ========================================================================== */
+.ad-pullup {
+	margin-top: -8px;
+}
+
+.ad-section-preferences {
+	margin-bottom: 24px;
+}
+
+.ad-section-basics {
+	margin: 22px 0;
+}
+
+.ad-subsection-frequency {
+	margin-top: 24px;
+}
+
+.ad-section-basics h5 { margin-bottom: 12px; }

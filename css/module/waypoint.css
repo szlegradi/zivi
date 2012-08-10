@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+.waypoints {
+
+}
+
+.waypoint {
+	min-height: 60px;
+	position: relative;
+}
+
+.waypoint > .ico { float: left; }
+
+	.waypoint:before {
+		background: #a5a5a5;
+		content: " ";
+		display: block;
+		height: 90%;
+		left: 14px;
+		position: absolute;
+		top: 32px;
+		width: 4px;
+	}
+
+	.waypoints .waypoint:last-child:before {
+		content: none;
+	}
+
+.waypoint .ico-26 { margin: 0 0 0 3px; }
+
+	.waypoint-small:before {
+		top: 25px;
+	}
+
+.waypoint-address {
+	float: left;
+	margin-left: 3px;
+	width: 325px;
+}
+
+	.waypoint-address span {
+		display: block;
+		margin-bottom: 6px;
+	}
+
+	.waypoint-address .btn {
+		margin-bottom: 12px;
+	}
+
+	.waypoint-small .waypoint-address { margin-left: 6px; }
+	.waypoint-small .waypoint-address span { font-size: 12px;  }
+
+.waypoint-time {
+	float: right;
+}

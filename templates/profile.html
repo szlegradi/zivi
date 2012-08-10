@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Profile</title>
+
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/states.css" />
+		<link rel="stylesheet" href="../css/module/page.css" />
+		<link rel="stylesheet" href="../css/module/btn.css" />
+		<link rel="stylesheet" href="../css/module/ico.css" />
+		<link rel="stylesheet" href="../css/module/nav.css" />
+		<link rel="stylesheet" href="../css/module/msg.css" />
+		<link rel="stylesheet" href="../css/module/form.css" />
+		<link rel="stylesheet" href="../css/module/profile.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="l-two-columns-left container group">
+				<h2>Profile</h2>
+
+				<div class="content profile">
+					<h3><span>Személyes adataim</span></h3>
+
+					<form action="#">
+						<div class="control-group">
+							<label for="vezeteknev" class="control-label">Vezetéknév: <sup>*</sup></label>
+							<div class="controls">
+								<input type="text" class="input-rounded input-xxlarge" value="Sofőr" /> <i class="ico ico-22 ico-lock"></i>
+								<p class="help-block">Csak visszaigazolt foglalás után láthatja a másik Zivi felhasználó.</p>
+							</div>
+						</div> <!-- .control-group -->
+
+						<div class="control-group">
+							<label for="keresztnev" class="control-label">Keresztnév: <sup>*</sup></label>
+							<div class="controls">
+								<input type="text" class="input-rounded input-xxlarge" value="Ágota" /> <i class="ico ico-22 ico-lock"></i>
+							</div>
+						</div> <!-- .control-group -->
+
+						<div class="control-group">
+							<label for="email" class="control-label">E-mail cím: <sup>*</sup></label>
+							<div class="controls">
+								<span class="control-readonly input-large">agota.sofor@gmail.com</span>
+
+								<a href="#" class="btn btn-small btn-action profile-btn-email">
+									Módosítás
+									<i class="ico ico-pencil"></i>
+								</a>
+								<i class="ico ico-22 ico-lock"></i>
+								<p class="help-block">E-mail címed privát marad, soha nem láthatja másik felhasználó.</p>
+							</div>
+						</div> <!-- .control-group -->
+
+						<div class="control-group">
+							<label for="nem" class="control-label">Nem: <sup>*</sup></label>
+							<div class="controls">
+								<select name="nem" id="nem">
+									<option value="ferfi">Férfi</option>
+									<option value="no">Nő</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="control-group">
+							<label for="szuletes" class="control-label">Születési év: <sup>*</sup></label>
+							<div class="controls">
+								<select name="szuletes" id="szuletes">
+									<option value="2012">2012</option>
+								</select>
+								<i class="ico ico-22 ico-lock"></i>
+
+								<p class="help-block">Pontos születési éved privát marad. Profilodon ez fog megjelennni: 25-30</p>
+							</div>
+						</div>
+
+						<div class="control-group">
+							<label for="mobilszam" class="control-label">Mobilszám: <sup>*</sup></label>
+							<div class="controls">
+								<select name="mobilszam" id="mobilszam">
+									<option value="36">+36</option>
+								</select>
+
+								<input type="text" class="input-rounded profile-mobile" />
+								<i class="ico ico-22 ico-lock"></i>
+
+								<div class="msg is-tip">
+									<strong>Kérjük igazold mobilszámod valódiságát!</strong> <i class="ico ico-19 ico-help"></i>
+
+									<p>Verifikáláshoz küldj egy üres, alapdíjas SMS-t erre a számra:<br />
+									<strong>+36 20 453 7024</strong></p>
+
+									<p>Ha a verifikálás sikeres pár percen belül visszaigazoló e-mailt küldünk.</p>
+								</div>
+							</div>
+						</div>
+
+					</form>
+
+					<h3><span>Garázs</span></h3>
+
+					<h3><span>Opcionális</span></h3>
+					<form action="#">
+						<div class="control-group">
+							<label for="magamrol" class="control-label">Magamról:</label>
+							<div class="controls">
+								<textarea name="magamrol" id="magamrol" class="input-rounded input-xxlarge" cols="30" rows="4"></textarea>
+
+								<div class="help-block">
+									<p>A Zivi kapcsolatokra épül. Segíts másoknak, hogy megismerhessenek.</p>
+
+									<p>Mondd el nekik, hogy mit szeretsz: Mi az az 5 dolog ami nélkül nem tudnál
+									élni? Mik a kedvenc zenéid, könyveid, filmjeid, helyeid vagy ételeid?</p>
+
+									<p>Mondd el milyen veled utazni: Szeretsz sokat beszélgetni, új embereket
+									megismerni? Általában milyen zene megy a kocsidban?</p>
+
+									<p>Mondj el bármit magadról: Mi az életfilozófiád?</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="control-group">
+							<label for="munkahely" class="control-label">Munkahely:</label>
+							<div class="controls">
+								<input type="text" class="input-rounded input-xxlarge" />
+							</div>
+						</div>
+
+						<div class="control-group">
+							<label for="munkahely-email" class="control-label">Munkahelyi email:</label>
+							<div class="controls">
+								<input type="text" class="input-rounded input-xxlarge" />
+							</div>
+						</div>
+
+						<div class="control-group">
+							<div class="controls">
+								<button class="btn btn-primary input-xxlarge">Profil mentése</button>
+							</div>
+						</div>
+					</form>
+				</div> <!-- .content -->
+
+				<div class="sidebar">
+
+				</div> <!-- .sidebar -->
+			</div>
+		</div> <!-- .wrapper -->
+	</body>
+</html>

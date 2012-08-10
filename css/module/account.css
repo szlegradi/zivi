@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.account { 
+	font-size: 13px;
+	width: 365px; 
+}
+
+.account-header {
+	background-color: #db4915;	
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RiNDkxNSIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UzNmY0OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(90deg, #db4915 0%, #e36f49 100%);
+	background-image: -o-linear-gradient(90deg, #db4915 0%, #e36f49 100%);
+	background-image: -webkit-linear-gradient(90deg, #db4915 0%, #e36f49 100%);
+	background-image: linear-gradient(90deg, #db4915 0%, #e36f49 100%);
+	
+	border: 1px solid #c75729;
+	border-radius: 5px 5px 0 0;
+	
+	-moz-box-shadow:
+		inset 0 1px 0 rgba(250,190,80,.75),
+		inset 0 0 16px rgba(255,255,190,.24);
+	-webkit-box-shadow:
+		inset 0 1px 0 rgba(250,190,80,.75),
+		inset 0 0 16px rgba(255,255,190,.24);
+	box-shadow:
+		inset 0 1px 0 rgba(250,190,80,.75),
+		inset 0 0 16px rgba(255,255,190,.24);
+
+	color: #fff;
+	height: 57px;
+	font-size: 20px;
+	line-height: 57px;
+	text-align: center;
+	text-shadow: 0 -1px 1px rgba(39,100,139,.43);
+}
+
+.account-panel {
+	background: #e5e8ee;
+	border-bottom: 1px solid #bcc5d8;
+	padding: 24px;
+}
+.account-body {
+	padding: 24px 24px 0;
+}
+
+.account-or {
+	background: #e5e8ee;
+    border: 1px solid #bcc5d8;
+    border-top: 0;
+
+    border-radius: 0 0 5px 5px;
+
+	font-family: 'MuseoSlab500Italic', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    height: 13px;
+    left: 50%;
+    line-height: 0;
+    margin: -1px 0 0 -22px;
+	position: absolute;
+    text-align: center;
+    width: 45px;
+}
+
+.account-toggle, .account-change-view {
+	display: block;		
+	margin: 0 0 24px; 
+	position: relative;
+	text-align: center;
+}
+.account-toggle { 
+	color: #5b8cac; 
+	font-size: 14px;
+}
+	
+	.account-toggle span { position: relative; }
+	
+	.account-toggle span:before {
+		border: 4px solid transparent;
+		border-left-color: #8aa021;
+		content: " ";
+		display: block;
+		right: 103%;
+		position: absolute;
+		top: 4px;
+	}
+
+	.account-toggle.is-open span:before {
+		border: 4px solid transparent;
+		border-top-color: #8aa021;
+		top: 6px;
+	}
+
+.account-change-view {
+	background: url(../../images/sep-horizontal-account.png) no-repeat center top;
+	padding: 12px 0 0;
+}
+
+.account a:not(.btn) {
+	color: #6a7284;
+}
+
+.account input[type="text"],
+.account input[type="password"] { 
+	font-size: 16px;
+	height: 50px; 
+}
+
+.account .control-group {
+	margin-bottom: 16px;
+}
+
+.account .checkbox {
+	padding-top: 0;
+}

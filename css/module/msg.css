@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+.msg {
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 8px 8px 8px 55px;
+	position: relative;
+}
+	h3 + .msg { margin: 12px 0; }
+
+	.msg-content {
+		float: left;
+		width: 750px;
+	}
+
+	.msg p { margin: 0; }
+	.msg ul { margin-left: 20px; }
+	.msg li { list-style: disc; }
+
+	.msg .ico-info {
+		left: 18px;
+		position: absolute;
+		top: 18px;
+	}
+
+	.msg .ico-warning { 
+		left: 12px;
+		position: absolute;
+		top: 12px;
+	}
+
+.msg.is-tip {
+	border-radius: 3px;
+	background-color: rgba(202,202,202,.4);
+	
+	-moz-box-shadow: inset 0 2px 5px rgba(0,0,0,.25);
+	-webkit-box-shadow: inset 0 2px 5px rgba(0,0,0,.25);
+	box-shadow: inset 0 2px 5px rgba(0,0,0,.25);
+
+	margin: 18px 0;
+	padding: 8px;
+}
+
+	.msg.is-tip p {
+		line-height: 125%;
+		margin: 10px 0;
+	}
+
+.msg + h3 {
+	margin-top: 25px;
+}

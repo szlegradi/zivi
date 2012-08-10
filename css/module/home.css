@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.home-intro {
+	padding: 90px 0 45px;
+}
+
+.home-intro ul {
+	margin: 24px 0;
+}
+
+.home-intro li {
+	background: url(../../images/bullet-orange.png) no-repeat left 4px;
+	color: #f0f9ff;
+	font-size: 16px;
+	margin: 0 0 24px;
+	padding-left: 20px;
+	text-shadow: 0 1px 1px rgba(39,100,139,.63);
+}
+
+.home-intro-text {
+	float: left;
+	width: 425px;
+}
+
+.home-intro-video {
+	float: right;
+	text-align: center;
+	width: 570px;
+}
+
+.home-intro-like { margin: 15px auto 0; }
+
+/* Section: Search
+   ========================================================================== */
+.home-section-search {
+	margin: -54px 0 54px;
+	padding: 24px 0 0;
+}
+
+/* Section: Features
+   ========================================================================== */
+.home-section-features p {
+	font-size: 16px;
+}
+
+.home-section-features h2 {
+	color: #757575;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/* Section: Featured trip
+   ========================================================================== */
+.home-section-featured { font-size: 16px; }
+
+.home-map {
+	background: url(../../images/home-map.png) -42px center no-repeat;
+	height: 454px; 
+}
+
+.home-map-col-left {
+	float: left;
+	margin: 65px 0 0 125px;
+	width: 385px;
+}
+
+.home-map-col-right {
+	float: left;
+	margin: 200px 0 0 20px;
+	width: 465px;
+}
+
+.home-map-btn {
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	width: 24%;
+}
+
+/* Logged in
+   ========================================================================== */
+.is-logged-in .home .content { width: 720px; }
+.is-logged-in .home .sidebar { padding-left: 5px; }
+
+/* Facebook trips */
+.home-facebook-list { 
+	margin: -8px;
+	max-height: 255px;
+	overflow: auto;
+}
+
+.home-facebook-list tr:nth-child(2n) td { background: #f5f5f5; }
+.home-facebook-list .ico { margin: 7px 0 0 3px; }
+
+.home-facebook-list td {
+	line-height: 120%;
+	padding: 3px 8px;
+	vertical-align: middle;
+}
+
+/* Sidebar */
+.is-logged-in .home-fill-profile {
+	margin-bottom: 0;
+}

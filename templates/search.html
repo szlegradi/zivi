@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>New</title>
+
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/states.css" />
+		<link rel="stylesheet" href="../css/font.css" />
+		<link rel="stylesheet" href="../css/module/page.css" />
+		<link rel="stylesheet" href="../css/module/btn.css" />
+		<link rel="stylesheet" href="../css/module/ico.css" />
+		<link rel="stylesheet" href="../css/module/nav.css" />
+		<link rel="stylesheet" href="../css/module/form.css" />
+		<link rel="stylesheet" href="../css/module/trip.css" />
+		<link rel="stylesheet" href="../css/module/search.css" />
+		<link rel="stylesheet" href="../css/module/waypoint.css" />
+
+	</head>
+	
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div class="page">
+			<div class="header">
+				<div class="container group">
+					<div class="left">
+						<div class="logo">
+							<a href="#">
+								<img src="../images/logo-beta.png" alt="Zivi Beta" />
+							</a>
+						</div>
+
+						<div class="fb-like" data-send="false" data-width="300" data-show-faces="false" data-font="arial"></div>
+					</div>
+
+					<div class="header-links">
+						<ul class="group">
+							<li>
+								<a href="#">Hogyan működik?</a>
+							</li>
+							<li>
+								<a href="#">Bejelentkezem</a>
+							</li>
+							<li class="signup">
+								<a href="#" class="btn btn-secondary">Regisztrálok</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="tagline">
+				<h1 class="container">Hirdetés feladása</h1>
+			</div>
+
+			<div class="wrapper">
+				<div class="container group">
+					<div class="content">
+						<form class="form-inline form-search">
+							<div class="search-start"><input type="text" class="start" placeholder="Honnan indulsz?" /></div>
+							<div class="search-destination"><input type="text" class="destination" placeholder="Hová utaznál?" /></div>
+							<div><input type="text" class="date" /></div>
+							<div>
+								<button type="submit" class="search-btn ir">Keres</button>
+							</div>
+						</form>
+
+						<div class="trip is-driver is-listing">
+							<ul class="trip-header group">
+								<li><i class="ico ico-19 ico-driver"></i></li>
+								<li class="trip-avatar">
+									<img src="http://lorempixel.com/50/50" alt="avatar" />
+									<i class="ico ico-26 ico-favorite"></i>
+								</li>
+								<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+								<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+								<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+								<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+								<li class="trip-toggle">
+									<a href="#" class="ico ico-toggle"></a>
+								</li>
+								<li class="right">
+									<i class="ico ico-19 ico-wallet"></i>
+									<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+								</li>
+								<li class="right">
+									<i class="ico ico-19 ico-person"></i>
+									<strong>3</strong> <span class="is-faded">szabad hely</span>
+								</li>
+							</ul>
+
+							<div class="trip-footer group">
+								<div class="left">
+									<span class="left">Közös ismerősök:</span>
+									<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+								</div>
+
+								<div class="trip-footer-groups right">
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<span class="right">Közös csoportok</span>
+								</div>
+							</div> <!-- .trip-footer -->
+						</div> <!-- .trip -->
+
+						<div class="trip is-passenger is-listing">
+							<ul class="trip-header">
+								<li><i class="ico ico-19 ico-passenger"></i></li>
+								<li class="trip-avatar"><img src="http://lorempixel.com/50/50" alt="avatar" /></li>
+								<li><i class="ico ico-19 ico-clock"></i> <strong>10:45</strong></li>
+								<li class="trip-waypoint"><h5><strong class="is-faded">Budapest</strong></h5></li>
+								<li class="trip-waypoint"><h5><strong>Székesfehérvár</strong></h5></li>
+								<li class="trip-waypoint"><h5><strong>Révfülöp</strong></h5></li>
+								<li class="trip-toggle">
+									<a href="#" class="ico ico-toggle"></a>
+								</li>
+								<li class="right">
+									<i class="ico ico-19 ico-wallet"></i>
+									<strong>1800 Ft</strong><span class="is-faded">/Fő</span>
+								</li>
+								<li class="right">
+									<i class="ico ico-19 ico-person"></i>
+									<strong>3</strong> <span class="is-faded">szabad hely</span>
+								</li>
+							</ul>
+
+							
+							<div class="trip-footer group">
+								<div class="left">
+									<span class="left">Közös ismerősök:</span>
+									<img src="../images/icons/facebook-small.jpg" alt="Facebook" class="fb" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+								</div>
+
+								<div class="trip-footer-groups right">
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<img src="http://lorempixel.com/20/20" alt="avatar" />
+									<span class="right">Közös csoportok</span>
+								</div>
+							</div> <!-- .trip-footer -->
+						</div> <!-- .trip -->
+					</div> <!-- .content -->
+				</div> <!-- .container -->
+			</div>
+		</div> <!-- .page -->
+
+		<div class="footer">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+/* Edit profile
+   ========================================================================== */
+.profile-menu { padding-left: 270px; }
+.profile-menu .btn { width: 270px; }
+
+.profile-mobile { width: 397px; }
+.profile-btn-email { margin-left: 9px; }
+
+.profile .controls { width: 498px; }
+.profile .is-tip { margin-right: 31px; }
+
+/* Public profile
+   ========================================================================== */
+.profile-public .l-split { margin-bottom: -24px; }
+.profile-public .half { width: 49%; }
+
+.profile-introduction, .profile-basic { border-bottom: 1px solid #e5e5e5; }
+.profile-basic { padding-bottom: 4px; }
+.profile-fb-icon { margin-top: -4px; }
+
+.profile-optional li { line-height: 150%; }
+
+.profile-public-edit { margin-top: 12px; }
+.profile-public-avatar {
+	border: 4px solid #fff;
+
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.4);
+	box-shadow: 0 1px 5px rgba(0,0,0,.4);
+
+	height: 230px;
+	margin-top: -66px;
+	width: 230px;
+}
+
+.profile-public-verifications .widget-body {	
+	padding-top: 0;
+}
+
+.profile-public-verifications li {
+	border-top: 1px solid #cfcfcf;
+	height: 50px;
+	margin: 0 -8px;
+	padding: 6px 8px;
+	overflow: hidden;
+}
+.profile-public-verifications li:first-child { border-top: 0; }
+
+.profile-public-verifications p {
+	float: left;
+	margin: 0 0 0 6px;
+	width: 150px;
+}
+
+.profile-public-verifications span { color: #5591b8; }
+.profile-public-verifications .ico { margin-top: 12px; }
+
+/* Uniform controls
+   ========================================================================== */
+#uniform-Gender, #uniform-YearOfBirth, #uniform-MobilePrefix { width: 71px; }
+#uniform-Gender span, #uniform-YearOfBirth span, #uniform-MobilePrefix span { width: 67px; }
+#uniform-Gender select, #uniform-YearOfBirth select, #uniform-MobilePrefix select { min-width: 71px; }

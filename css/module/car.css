@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.car-buttons {
+	float: right;
+}
+
+.car-buttons .btn {
+	display: block;
+	margin: 0 0 8px;	
+}
+
+.car-new-form {
+	margin: 24px 0;
+}

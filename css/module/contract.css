@@ -1,0 +1,157 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.contract {
+	background: #f6f6f6;
+	border: 1px solid #c9c9c9;
+	border-radius: 5px;
+
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	box-shadow: 0 1px 1px rgba(0,0,0,.09);
+
+	margin: 36px auto;
+}
+
+.contract .trip-details {
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Contract headings
+   ========================================================================== */
+.contract-heading {
+	background: #ebebeb;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	clear: both;
+	height: 53px;
+	line-height: 53px;
+	text-indent: 20px;
+}
+
+	.contract-heading:first-child { 
+		border-radius: 5px 5px 0 0; 
+		border-top: 0;
+	}
+
+/* Contract passenger / driver
+   ========================================================================== */
+.contract .trip-header {
+	background: #f6f6f6;
+	border: 0;
+	border-radius: 0;
+	cursor: default;
+}
+
+/* Contract summary
+   ========================================================================== */
+.contract-summary {
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 24px;
+	margin-top: -10px;
+	margin-right: -24px;
+	padding: 0 24px 12px;
+}
+
+/* Contract conversation
+   ========================================================================== */
+.contract-remark, .contract-conversation, .contract-seats {
+	border-top: 1px solid #cacaca;
+	padding: 24px 27px 24px 20px;	
+}
+
+.contract-conversation { border-bottom: 1px solid #cacaca; }
+
+	.contract-conversation li { 
+		margin: 12px 0 0; 
+		overflow: hidden;
+	}
+
+	.contract-conversation li:first-child { margin-top: 0; }
+
+	.contract-conversation img {
+		border: 1px solid #a9a9a9;
+		border-radius: 3px;
+	}
+
+
+.contract-conversation-avatar { width: 43px; }
+		.contract-conversation p { margin: 0; }
+
+	.contract-conversation-avatar, .contract-conversation-message { float: left; }
+	.contract-conversation-time { 
+		float: right;
+		width: 70px;
+	}
+	.contract-conversation-message { width: 820px; }
+
+/* Contract seats
+   ========================================================================== */
+.contract-seats {
+	border-top: 0;
+	padding-top: 0;
+}
+
+	.contract-seats h5 {
+		display: inline-block;
+		line-height: 33px;
+		margin-right: 8px;
+	}
+
+	.contract-seats span {
+		background: #fff;
+		display: inline-block;
+		margin-bottom: 4px;
+	}
+
+.contract-seats-taken {
+	float: left;
+	width: 476px;
+}
+
+.contract-passengers {
+	float: right;
+	text-align: right;
+	width: 460px;
+}
+
+	.contract-passenger img, .contract-passengers span {
+		border: 1px solid #e0e0e0;
+		border-radius: 3px;
+	}
+
+/* Contract footer
+   ========================================================================== */
+.contract-footer.l-split .column { padding: 24px; }
+
+.contract-footer .PricePerson {
+	background: none;
+	border: none;
+	
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	
+	height: 21px;
+	text-align: right;
+}
+
+.contract-footer tfoot tr:first-child td { 
+	border-top: 1px solid #e0e0e0; 
+	padding-top: 8px; 
+}
+
+.contract-footer td { padding: 0 0 8px; }
+
+.contract-footer .btn.half:first-child { 
+	margin-right: 2%; 
+	width: 48%;
+}

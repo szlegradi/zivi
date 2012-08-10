@@ -1,0 +1,173 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.nav {
+	margin-left: 0;
+	margin-bottom: 19px;
+}
+
+	.nav a { display: block; text-decoration: none; }
+
+/* Pagination
+   ========================================================================== */
+.pagination {
+	margin: 50px 0;
+	text-align: center;
+}
+
+	.pagination a { display: inline-block; }
+
+/* Tabs
+   ========================================================================== */
+.nav-tabs {
+}
+
+	.nav-tabs > li {
+		background: #ededed;
+		border: 1px solid #d2d2d2;
+		border-bottom: 0;
+		border-radius: 3px 3px 0 0;
+
+		-webkit-box-shadow: inset 0 1px 1px 0 #fff;
+		-moz-box-shadow: inset 0 1px 1px 0 #fff;
+		box-shadow: inset 0 1px 1px 0 #fff;
+
+		float: left;
+		margin-bottom: -1px;
+		position: relative;
+		top: 5px;
+	}
+
+	.nav-tabs a {
+		color: #727272;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 34px;
+		padding: 0 12px;
+		text-align: center;
+	}
+
+	.nav-tabs .active {
+		background: #f2f2f2;
+		background: -moz-linear-gradient(top,  #f2f2f2 0%, #ffffff 54%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(54%,#ffffff));
+		background: -webkit-linear-gradient(top,  #f2f2f2 0%,#ffffff 54%);
+		background: -o-linear-gradient(top,  #f2f2f2 0%,#ffffff 54%);
+		background: -ms-linear-gradient(top,  #f2f2f2 0%,#ffffff 54%);
+		background: linear-gradient(top,  #f2f2f2 0%,#ffffff 54%);
+
+		border-color: #d3d3d3;
+
+		position: relative;
+		top: 1px;
+	}
+
+	.nav-tabs .active a {
+		line-height: 39px;
+	}
+
+/* Breadcrumbs
+   ========================================================================== */
+.nav-breadcrumbs {
+	margin: 24px 0;
+	text-align: center;
+}
+
+	.nav-breadcrumbs li {
+		border-bottom: 3px solid #cdcdcd;
+
+		-moz-box-shadow: 0 1px 0 0 #fff;
+		-webkit-box-shadow: 0 1px 0 0 #fff;
+		box-shadow: 0 1px 0 0 #fff;
+
+		display: inline-block;
+		padding: 0 0 20px 30px;
+		position: relative;
+	}
+
+	.nav-breadcrumbs li:first-child { padding-left: 0; }
+
+	.nav-breadcrumbs a, .nav-breadcrumbs a:visited {
+		color: #535353;
+		display: block;
+	}
+
+	.nav-breadcrumbs .brcurrent:after, .nav-breadcrumbs .current:after {
+		border: 9px solid transparent;
+		border-bottom-color: #cdcdcd;
+		bottom: 0;
+		content: " ";
+		left: 50%;
+		margin: 0 0 0 -4px;
+		position: absolute;
+		height: 0; width: 0;
+	}
+
+	.nav-breadcrumbs .brdisable {
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+	}
+
+	
+	.nav-breadcrumbs .brcurrent, .nav-breadcrumbs .current {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+
+/* Side navigation
+   ========================================================================== */
+.nav-side {
+ 	border: 1px solid #d4d4d4;
+ 	border-top: none;
+ 	border-radius: 0 0 4px 4px;
+ 	
+ 	-moz-box-shadow: 0 1px 1px 0 #fff;
+ 	-webkit-box-shadow: 0 1px 1px 0 #fff;
+ 	box-shadow: 0 1px 1px 0 #fff;
+
+ 	width: 178px;
+ }
+
+ 	.nav-side li {
+ 		border-top: 1px solid #d4d4d4;
+ 		box-shadow: inset 0 1px 1px 0 #fff;
+ 		text-indent: 26px;
+ 	}
+
+ 	.nav-side li:hover {
+ 		background-color: #ededed;
+		background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+		background-image: -moz-linear-gradient(90deg, rgba(255,255,255,.05) 0%, rgba(0,0,0,.05) 100%);
+		background-image: -o-linear-gradient(90deg, rgba(255,255,255,.05) 0%, rgba(0,0,0,.05) 100%);
+		background-image: -webkit-linear-gradient(90deg, rgba(255,255,255,.05) 0%, rgba(0,0,0,.05) 100%);
+		background-image: linear-gradient(90deg, rgba(255,255,255,.05) 0%, rgba(0,0,0,.05) 100%);
+
+		-moz-box-shadow: inset 0 1px 5px rgba(0,0,0,.15);
+		-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,.15);
+		box-shadow: inset 0 1px 5px rgba(0,0,0,.15);
+ 	}
+
+ 	.nav-side a {
+ 		color: #383737;
+ 		display: block;
+ 		font-size: 15px;
+ 		font-weight: bold;
+ 		line-height: 2.6;
+ 	}
+
+ 	.nav-side li:hover a { color: #3f3f3f; }
+
+ 	.nav-side .current { border-top: none; } 
+	 	.nav-side .current a {
+	 		background: url(../../images/bg-side-navigation-active.png) no-repeat left top;
+	 		text-shadow: #dadada 0 1px 0;
+	 		width: 192px;
+	 	}
+
+	 	.nav-side .current:hover {
+	 		-moz-box-shadow: none;
+	 		-webkit-box-shadow: none;
+	 		box-shadow: none;
+	 	}

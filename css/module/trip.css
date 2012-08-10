@@ -1,0 +1,334 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.trip {
+	border-radius: 5px;
+	margin: 24px 0;
+	width: 100%;
+}
+
+.trip .msg { 
+	margin: 0 0 12px 19px;
+	width: 455px;
+}
+
+.trip-menu { padding-left: 270px; }
+.trip-menu .btn { width: 270px; }
+
+.trip-mode-toggle .btn { width: 33.333333333%; }
+
+/* Trip header
+   ========================================================================== */
+.trip-header {
+	background: #fff;
+	border: 1px solid #cacaca;
+	border-left: 0;
+	border-radius: 0 5px 0 0;
+	cursor: pointer;
+	height: 64px;
+}
+	.is-own .trip-header { border-radius: 0 5px 5px 0; }
+	.is-own .trip-header, .is-disabled .trip-header { cursor: default; }
+
+	.trip-header h5 { line-height: inherit; }
+	.trip-header > li {
+		border-right: 1px solid #e0e0e0;
+		float: left;
+		height: 64px;
+		line-height: 64px;
+		padding: 0 8px;
+	}
+		.is-own .trip-header > li {
+			height: 40px;
+			line-height: 40px;
+			margin-top: 11px;
+		}
+
+.trip-avatar { position: relative; }
+	
+	.trip-avatar a { display: block; }
+	.trip-avatar img {
+		border-radius: 3px;
+		display: block;
+		margin: 6px 0 0;
+	}
+		.is-own .trip-avatar img { margin-top: -5px; }
+
+	.trip-avatar .ico-favorite {
+		bottom: 3px;
+		position: absolute;
+		right: 0;
+	}
+
+.trip-waypoint, .trip-header .trip-waypoint, .boarding-header .trip-waypoint {
+	background: url(../../images/divider-arrow.png) no-repeat right top;
+	border-right: 0;
+	padding-right: 23px;
+}
+
+	.is-own .trip-header .trip-waypoint {
+		height: 64px;
+		line-height: 64px;
+		margin-right: 10px;
+		margin-top: 0;
+	}
+
+.trip-header .trip-toggle {
+	border-right: 0;
+	float: right;
+}
+
+/* Mutual friends and groups */
+.trip-header .trip-mutual {
+	line-height: 14px;
+}
+
+.trip-mutual {
+	float: left;
+	margin-right: 24px;
+	padding-top: 17px;
+}
+
+	.trip-mutual small { 
+		display: block; 
+		margin-bottom: 3px;
+	}
+	.trip-mutual img { border-radius: 3px; }
+
+/* Car box */
+.trip-header .trip-car-info {
+	border-left: 1px solid #e0e0e0;
+	border-right: 0;
+	margin-right: 8px;
+	padding-right: 30px;
+	position: relative;
+}
+
+.trip-car-avatar {
+	border: 2px solid #fff;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.35);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.35);
+	box-shadow: 0 1px 1px rgba(0,0,0,.35);
+}
+
+.trip-car-features {
+	line-height: 25px;
+	position: absolute;
+	right: 0;
+	top: 7px;
+	width: 22px;
+}
+
+/* Trip details
+   ========================================================================== */
+.trip-details {
+	background: #fff;
+	border-right: 1px solid #cacaca;
+	border-radius: 0 0 5px 0;
+
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	box-shadow: 0 1px 1px rgba(0,0,0,.09);
+}
+
+.trip-details .waypoints { margin: 0 0 0 60px; }
+
+.is-listing .trip-details .btn {
+	margin-left: 20px;
+	margin-right: 0;
+	width: 456px;
+}
+
+.trip-details .column {
+	padding-bottom: 24px;
+	padding-right: 24px;
+	padding-top: 24px;
+}
+
+.trip-details .ico-pickup, .trip-details .ico-dropdown {
+	left: -30px;
+	margin-top: 3px;
+	position: absolute;
+}
+
+/* Trip map
+   ========================================================================== */
+.trip-map {
+	margin-left: 6px;
+	padding: 5px;
+	position: relative;
+	width: 457px;
+}
+
+	.trip-map .nav-tabs {
+		border-bottom: 1px solid #fff;
+		margin: 0 -4px 0 -1px;
+	}
+
+	.trip-map .nav-tabs li {
+		margin-bottom: -1px;
+		margin-right: 1px;
+		width: 33%;
+	}
+
+	.trip-map-container {
+		background: #fff;
+		border-top: 1px solid #cdcdcd;
+		-moz-box-shadow:
+			0 1px 2px rgba(0,0,0,.5),
+			0 0 0 1px rgba(174,174,174,.5);
+		-webkit-box-shadow:
+			0 1px 2px rgba(0,0,0,.5),
+			0 0 0 1px rgba(174,174,174,.5);
+		box-shadow:
+			0 1px 2px rgba(0,0,0,.5),
+			0 0 0 1px rgba(174,174,174,.5);
+
+		height: 401px;
+		padding: 5px;
+	}
+
+	.trip-map-container > div { height: 100%; }
+
+.trip-map-overlay {
+    background: transparent url(../../images/bg-map-gradient.png);
+    bottom: 4px;
+    height: 61px;
+    left: 5px;
+    line-height: 61px;
+    position: absolute;
+    text-align: center;
+    width: 447px;
+}
+
+	.trip-map-overlay img {
+	    position: relative;
+	    top: 3px;
+	}
+
+	.trip-map-overlay.info {
+	    bottom: auto;
+	    border-bottom: 1px solid #d4d3d1;
+	    top: 44px;
+	}
+
+	.trip-map-overlay .selector { width: 400px; margin-left: 41px; }
+	.trip-map-overlay .selector span { width: 332px; }
+	.trip-map-overlay .selector select { width: 362px; }
+
+/* Trip traveler
+   ========================================================================== */
+.trip-traveler {
+	border: 1px solid #e0e0e0;
+	border-left: 0;
+	border-right: 0;
+	margin: 0 -24px 24px 0;
+	padding: 24px 20px;
+}
+
+	.contract .trip-traveler { border-bottom: 0; }
+
+/* Car */
+.trip-traveler-car {
+	color: #737373;
+	float: left;
+	font-size: 12px;
+	width: 210px;
+}
+
+	.trip-traveler-car img {
+		border: 3px solid #fff;
+		-moz-box-shadow: 0 1px 2px rgba(43,44,44,.6);
+		-webkit-box-shadow: 0 1px 2px rgba(43,44,44,.6);
+		box-shadow: 0 1px 2px rgba(43,44,44,.6);
+		float: left;
+		height: 94px;
+		width: 84px;
+	}
+
+.trip-traveler-car-details {
+	float: right;
+	padding: 12px 0 0;
+	width: 110px;
+}
+
+	.trip-traveler-car ul { margin: 20px 0 0; }
+	.trip-traveler-car li {
+		color: #3b80ad;
+		padding: 0 0 4px;
+	}
+
+/* Remark */
+.trip-traveler-remark {
+	background: url(../../images/bg-remark.jpg) repeat left top;
+	
+	-moz-box-shadow: 0 1px 1px rgba(62,38,6,.6);
+	-webkit-box-shadow: 0 1px 1px rgba(62,38,6,.6);
+	box-shadow: 0 1px 1px rgba(62,38,6,.6);
+	
+	color: #705700;
+	float: right;
+	font-size: 13px;
+	font-style: italic;
+	padding: 0 0 0 12px;
+	width: 210px;
+}
+	.is-driver .trip-traveler-remark { min-height: 95px; }
+
+	.is-passenger .trip-traveler-remark,
+	.contract .trip-traveler-remark { width: 454px; }
+
+	.trip-traveler-remark p {
+		font-size: 13px;
+		line-height: 25px;
+		margin: 0;
+	}
+
+/* Trip footer
+   ========================================================================== */
+.trip-footer {
+	background: #eceff1;
+
+	border: 1px solid #cacaca;
+	border-left: 0;
+	border-top:	0;
+	border-radius: 0 0 5px 0;
+	
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	box-shadow: 0 1px 1px rgba(0,0,0,.09);
+
+	clear: both;
+	font-size: 12px;
+	line-height: 27px;
+	padding: 0 6px;
+	position: relative;
+}
+
+	.trip-footer img {
+		border-radius: 3px;
+		float: left;
+		margin: 2px 0 0 5px;
+	}
+
+	.trip-footer-groups img { margin: 2px 5px 0 0; }
+
+	.trip-footer .fb {
+		border-radius: 0;
+		margin: 5px 5px 0 0;
+	}
+
+/* Share trip
+   ========================================================================== */
+.trip-share {
+	background: #f2f2f2; 
+	clear: both;
+	min-height: 82px;
+	line-height: 82px;
+	position: absolute;
+	right: -100%;
+	top: 0;
+	width: 100%;
+}

@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.container {
+	margin: 0 auto;
+	width: 995px;
+}
+
+.content {
+	min-height: 100%;
+	width: 995px;
+}
+
+/* Sidebar on left */
+.l-two-columns-left .content {
+	float: right;
+	width: 740px;
+}
+
+.l-two-columns-left .sidebar {
+	float: left;
+	padding-right: 25px;
+	width: 255px;
+}
+
+/* Sidebar on right */
+.l-two-columns-right .content {
+	float: left;
+	width: 740px;
+}
+
+.l-two-columns-right .sidebar {
+	float: right;
+	padding-left: 25px;
+	width: 255px;
+}
+
+/* Split columns */
+.l-split .half {
+	float: left;
+	width: 50%;
+}
+
+.l-split .column {
+	float: left;
+	padding-right: 12px;
+	width: 496px;
+}
+	.is-listing .trip-details .l-split .column { width: 494px; }
+
+.l-split .column:last-child {
+	border-left: 1px solid #dbdbdb;
+	padding-left: 12px;
+	padding-right: 0;
+}
+
+/* Grid layout */
+.l-grid {
+	overflow: hidden;
+}
+
+.l-grid > li {
+	float: left;
+	margin: 0 0 24px;
+	width: 25%;
+}
+
+/* Separators */
+.sep-vert-faded {
+	background: url(../images/sep-vertical-faded.png) no-repeat left 2px;
+	display: inline-block;
+	line-height: 33px;
+	margin-left: 12px;
+	padding-left: 12px;
+}
+
+/* Horizontal rulers */
+.hr-shine, .hr-shine-left {
+	background: url(../images/hr-shine.png) no-repeat center;
+	border: 0;
+	float: left;
+	height: 125px;
+	margin: -95px auto 25px;
+	width: 100%;
+}
+
+.hr-shine-left {
+	background-image: url(../images/hr-shine-left.png);
+	background-position: left top;
+	height: 70px;
+	margin-top: -40px;
+}
+
+.hr-dashed {
+	background: url(../images/divider-dashed-line.png) repeat-x left top;
+	border: 0;
+	height: 5px;
+	margin: 24px 0;
+}

@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>New</title>
+
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/layout.css" />
+		<link rel="stylesheet" href="../css/states.css" />
+		<link rel="stylesheet" href="../css/font.css" />
+		<link rel="stylesheet" href="../css/module/page.css" />
+		<link rel="stylesheet" href="../css/module/btn.css" />
+		<link rel="stylesheet" href="../css/module/ico.css" />
+		<link rel="stylesheet" href="../css/module/nav.css" />
+		<link rel="stylesheet" href="../css/module/form.css" />
+		<link rel="stylesheet" href="../css/module/trip.css" />
+		<link rel="stylesheet" href="../css/module/ad.css" />
+		<link rel="stylesheet" href="../css/module/waypoint.css" />
+
+	</head>
+	
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div class="page">
+			<div class="header">
+				<div class="container group">
+					<div class="left">
+						<div class="logo">
+							<a href="#">
+								<img src="../images/logo-beta.png" alt="Zivi Beta" />
+							</a>
+						</div>
+
+						<div class="fb-like" data-send="false" data-width="300" data-show-faces="false" data-font="arial"></div>
+					</div>
+
+					<div class="header-links">
+						<ul class="group">
+							<li>
+								<a href="#">Hogyan működik?</a>
+							</li>
+							<li>
+								<a href="#">Bejelentkezem</a>
+							</li>
+							<li class="signup">
+								<a href="#" class="btn btn-secondary">Regisztrálok</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="tagline">
+				<h1 class="container">Hirdetés feladása</h1>
+			</div>
+
+			<div class="wrapper">
+				<div class="container group">
+					<div class="content">
+						<h3>
+							<span>1. Hogyan utazol?</span>
+						</h3>
+
+						<div class="ad-section-basics form-inline">
+							<h5>Autós vagy utas?</h5>
+							<div class="control-group">
+								<label for="driver" class="radio">
+									<input type="radio" id="driver" name="type" />
+									<i class="ico ico-22 ico-driver"></i>
+									Autós
+									
+									<span class="help-inline">Saját autóval megyek, szeretnék utasokat találni akikkel megoszthatom benzinköltségemet</span>
+								</label>
+							</div>
+
+							<div class="control-group">
+								<label for="passenger" class="radio">
+									<input type="radio" id="passenger" name="type" />
+									<i class="ico ico-22 ico-passenger"></i>
+									Utas
+
+									<span class="help-inline">Utas vagyok, szeretnék egy autóst találni aki azonos útvonalon utazik mint én</span>
+								</label>
+							</div>
+
+							<h5 class="ad-subsection-frequency">Milyen gyakran közlekedsz az útvonalon?</h5>
+
+							<div class="control-group">
+								<label for="unique" class="radio">
+									<input type="radio" id="unique" name="freq" />
+									<i class="ico ico-22 ico-flag"></i>
+									Egyedi út
+
+									<span class="help-inline">Csak most vagy ritkán közlekedek ezen az útvonalon</span>
+								</label>
+
+							</div>
+
+							<div class="control-group">
+								<label for="scheduled" class="radio">
+									<input type="radio" id="scheduled" name="freq" />
+									<i class="ico ico-22 ico-scheduled"></i>
+									Rendszeres út
+
+									<span class="help-inline">Heti vagy napi gyakorisággal ezen az útvonalon közlekedek</span>
+								</label>
+							</div>
+
+						</div>
+
+						<h3><span>2. Utazás részletei</span></h3>
+						<div class="form-vertical">
+							<div class="control-group">
+								<label for="start" class="control-label epsilon">Indulás:</label>
+								<div class="controls">
+									<input type="text" id="start" class="input-small input-rounded gamma" value="2011/05/11" />
+
+									<select name="starthour" id="starthour" class="gamma">
+										<option value="16">16</option>
+									</select>
+									:
+									<select name="startmin" id="startmin" class="gamma">
+										<option value="00">00</option>
+									</select>
+								</div>
+							</div> <!-- .control-group -->
+						</div> <!-- .form-vertical -->
+
+						<hr class="hr-shine-left" />
+
+						<div class="l-split group">
+							<div class="half">
+								<h5>Pontos útvonalam:</h5>
+
+								<div class="form-inline">
+									<div class="control-group">
+										<label for="nofix" class="control-label radio">
+											<input type="radio" name="fixtype" id="nofix" />
+											<i class="ico ico-22 ico-flexible"></i>
+											Szívesen felveszek utast útközben
+
+											<i class="ico ico-19 ico-help"></i>
+										</label>
+									</div>
+
+									<div class="control-group">
+										<label for="fix" class="control-label radio">
+											<input type="radio" name="fixtype" id="fix" />
+											<i class="ico ico-22 ico-fix"></i>
+											Fix beszállási helyet adok meg
+
+											<i class="ico ico-19 ico-help"></i>
+										</label>
+									</div>
+								</div>
+
+								<ul class="waypoints ad-waypoints">
+									<li class="waypoint">
+										<i class="ico ico-32 ico-wp-passenger"></i>
+
+										<div class="waypoint-address">
+											<label>Indulási helyem:</label>
+											<input type="text" class="input-wide" />
+										</div>
+									</li>
+
+									<li class="waypoint">
+										<i class="ico ico-32 ico-wp-passenger"></i>
+
+										<div class="waypoint-address">
+											<label>Célpontom:</label>
+											<input type="text" class="input-wide" />
+										</div>
+									</li>
+								</ul> <!-- .waypoints -->
+
+								<hr class="hr-shine-left" />
+
+								<div class="form-vertical">
+									<div class="control-group">
+										<label for="free-seats" class="control-label">
+											<strong class="epsilon">Szabad helyeim:</strong>
+										</label>
+										<div class="controls">
+											<select name="free-seats" id="free-seats">
+												<option>3</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<label for="payment" class="control-label">
+											<strong class="epsilon">Fizetendő / utas / teljes út:</strong>
+											<i class="ico ico-19 ico-help"></i>
+										</label>
+
+										<div class="controls gamma">
+											<input type="text" class="input-mini input-rounded" value="1500" /> Ft = 14 Ft/Km
+										</div>
+
+										<p class="help-block">A  14 Ft/Km-es Zivi tarifa alapján, az ajánlott árunk erre az útra 1500 Ft</p>
+									</div>
+								</div>
+							</div> <!-- .half -->
+							
+							<div class="half">
+								<div class="trip-map">
+									<ul class="nav nav-tabs group">
+										<li class="wp-start"><a href="#">Beszállás</a></li>
+										<li class="wp-end"><a href="#">Kiszállás</a></li>
+										<li class="active wp-all"><a href="#">Teljes út</a></li>
+									</ul>
+									
+									<div class="trip-map-container">
+										<img src="http://lorempixel.com/437/401" alt="térkép" />
+									</div>
+								</div>
+							</div> <!-- .half -->
+						</div> <!-- .l-split -->
+
+						<hr class="hr-shine-left" />
+
+						<div class="form-vertical ad-pullup">
+							<label for="note" class="control-label"><strong class="epsilon">Megjegyzés:</strong></label>
+							<div class="controls">
+								<input type="text" class="input-wide" placeholder="Bármilyen fontos infot az útról ide írhatsz. pl. csomagok beszállás" />
+							</div>
+						</div>
+
+						<div class="hr-shine-left"></div>
+
+						<div class="form-vertical ad-pullup">
+							<div class="control-group">
+								<label for="retour" class="control-label">
+									<input type="checkbox" id="retour" />
+									<strong class="epsilon">Vissza:</strong>
+								</label>
+
+								<div class="controls">
+									<input type="text" class="input-small input-rounded gamma" value="2011/05/11" disabled />
+									<select name="retourh" id="retourh" class="gamma" disabled>
+										<option value="16">16</option>
+									</select>
+									:
+									<select name="retourmin" id="retourmin" class="gamma" disabled>
+										<option value="00">00</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="hr-shine-left"></div>
+
+						<h3><span>3. Egyéb info</span></h3>
+
+						<div class="form-vertical">
+							<label for="car" class="control-label">
+								<strong class="epsilon">Autó:</strong>
+							</label>
+
+							<div class="controls">
+								<select name="car" id="car" class="input-small gamma">
+									<option value="bmw3">BMW3</option>
+								</select>
+
+								<a href="#" class="btn btn-small btn-action">
+									<i class="ico ico-19 ico-add"></i>
+									Autó hozzáadása
+								</a>
+							</div>
+						</div>
+
+						<hr class="hr-shine-left" />
+
+						<h5>Preferenciák:</h5>
+
+						<div class="form-vertical ad-preferences">
+							<div class="control-group">
+								<div class="controls">
+									<label for="facebook" class="checkbox">
+										<input type="checkbox" />
+										Hirdetésem megosztása Facebookon
+									</label>
+
+									<label for="facebook" class="checkbox">
+										<input type="checkbox" />
+										Hirdetésem megosztása Facebookon
+									</label>
+
+									<label for="facebook" class="checkbox">
+										<input type="checkbox" />
+										Hirdetésem megosztása Facebookon
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<a href="#" class="btn btn-primary input-xxlarge">Hirdetésem mentése</a>
+
+						<br />
+
+						<br />
+
+					</div> <!-- .content -->
+				</div> <!-- .container -->
+			</div>
+		</div>
+	</body>
+</html>

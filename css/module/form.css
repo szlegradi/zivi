@@ -1,0 +1,140 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+label sup { color: #f00; }
+
+.control-group { margin: 0 0 6px; }
+
+	.control-label {
+		float: left;
+		margin-right: 16px;
+		padding-top: 9px;
+		text-align: right;
+		width: 130px;
+	}
+
+	.control-group .controls { margin-left: 146px; }
+
+	.control-readonly {
+		color: #7d7d7d;
+		display: inline-block;
+		line-height: 33px;
+	}
+
+/* Checkboxes and radios
+   ========================================================================== */
+.radio, 
+.checkbox {
+	float: none;
+	margin-bottom: 0;
+	min-height: 18px;
+	padding-left: 18px;
+	padding-top: 9px;
+}
+
+.radio.control-inline,
+.checkbox.control-inline {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+	float: left;
+	margin-left: -18px;
+}
+
+/* Input sizes
+   ========================================================================== */
+.input-mini { width: 99px; }
+.input-small { width: 134px; }
+.input-medium { width: 214px; }
+.input-large { width: 336px; }
+.input-xlarge { width: 380px; }
+.input-xxlarge { width: 467px; }
+.input-wide { width: 100%; }
+
+.input-owing { width: 99px; }
+.input-sms { width: 134px; }
+.input-conversation { width: 821px; }
+
+/* Input styles
+   ========================================================================== */
+.input-rounded {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
+	line-height: 1;
+}
+
+.alpha input  , .alpha select  , input.alpha  , select.alpha,
+.beta input   , .beta select   , input.beta   , select.beta,
+.gamma input  , .gamma select  , input.gamma  , select.gamma,
+.delta input  , .delta select  , input.delta  , select.delta,
+.epsilon input, .epsilon select, input.epsilon, select.epsilon,
+.zeta input   , .zeta select   , input.zeta   , select.zeta {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+/* Vertical form
+   ========================================================================== */
+.form-vertical .control-label {
+	display: block;
+	float: none;
+	text-align: left;
+	width: 100%;
+}
+
+.form-vertical .controls {
+	margin-left: 0;
+	width: auto;
+}
+
+/* Inline form
+   ========================================================================== */
+.form-inline label { 
+	display: inline-block; 
+	height: 33px;
+	line-height: 33px;
+	width: auto;
+}
+
+.form-inline .radio,
+.form-inline .checkbox {
+	padding-left: 0;
+	padding-top: 0;
+	vertical-align: middle;
+}
+
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+	float: none;
+	margin-left: 0;
+	margin-right: 3px;
+}
+
+/* Help text
+   ========================================================================== */
+.help-block, .help-inline {
+	color: #9e9e9e;
+	font-style: italic;
+}
+
+.help-block {
+	display: block;
+	margin: 0 0 6px;
+}
+
+.help-inline {
+	display: inline-block;
+	padding-left: 5px;
+	vertical-align: middle;
+}

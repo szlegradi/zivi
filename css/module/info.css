@@ -1,0 +1,156 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.menu-info .btn { width: 25%; }
+
+.info { font-size: 16px; }
+.info .changeable img {
+	position: absolute;
+	visibility: hidden;
+	z-index: 1;
+}
+
+	.info .changeable .img-state-two {
+		display: none;
+		z-index: 2;
+	}
+
+/* Main page
+   ========================================================================== */
+.info-main .logo-container {
+	background: #e5e5e5; 
+
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	box-shadow: 0 2px 5px rgba(0,0,0,.3); 
+
+	float: left; 
+	margin: 10px 20px 10px 0; 
+	position: relative;
+	height: 150px; 
+	width: 150px; 
+}
+
+.info-section-beta { margin-top: 50px; }
+
+/* Press page
+   ========================================================================== */
+.info-press h3, .info-press h4 { margin-top: 24px; }
+.info-press h3:first-child { margin-top: 0; }
+.info-press h4 + .btn { margin-top: 8px; }
+
+/* Team page
+   ========================================================================== */
+.info-team img {
+	border: 3px solid #fff;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	box-shadow: 0 1px 2px rgba(0,0,0,.4);
+}
+
+.info-team-group {
+	height: 450px;
+	margin: 24px auto 48px;
+}
+
+.info-team-group, .info-team-members {
+	text-align: center;
+}
+
+/* Security page
+   ========================================================================== */
+.info-security .media {
+	border-bottom: 1px solid #ccc;
+
+	-moz-box-shadow: 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+
+	height: 332px;
+}
+
+	.info-security .media:last-child {
+		border: 0;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+.info-security .media-img, .info-security .media-img-reverse {
+	background: url(../../images/glass-bg.png) left top no-repeat;
+	height: 332px;
+	margin: 0;
+	position: relative;
+	width: 332px;
+}
+
+	.info-security .media-img img, .info-security .media-img-reverse img {
+		position: relative;
+		visibility: hidden;
+		z-index: 1;
+	}
+
+.info-security .glass {
+	background: url(../../images/glass-cover.png) 0 0 no-repeat;
+	height: 332px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 332px;
+	z-index: 2;
+}
+
+.info-security .media-body {
+	height: 332px;
+	display: table;
+	width: 660px;
+}
+
+.info-security .vertical-center {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.info-security .vertical-inner {
+	position: relative;
+	top: -50%;
+}
+
+/* Rules page
+   ========================================================================== */
+.info-rules .l-split { margin-top: 48px; }
+.info-rules .l-split h2 { margin-bottom: 48px; }
+
+.info-rules .media-img {
+	margin: 0 10px 0 0;
+	padding: 17px 0 0;
+	width: 75px;
+}
+	.info-rules .media-img img { margin: 0 auto; }
+
+.info-rules .media-body {
+	padding: 10px 20px 60px 0;
+	width: 390px;
+}
+
+.info-rules-plus1 {
+	background: url(../../images/rules-plus1-bg.png) center top no-repeat;
+	padding: 40px 0 0;
+	margin: 50px auto 0 auto;
+	width: 656px;
+}
+
+	.info-rules-plus1 .media-body { width: 570px; }
+
+/* Documents
+   ========================================================================== */
+.info-document h3 { margin: 15px 0 0; }
+.info-document ul, .info-document ol { 
+	list-style: disc; 
+	margin: 7px 0 0 20px; 
+}
+.info-document ol { list-style: decimal; }
+.info-document li { line-height: 180%; }
+.info-document li ul { margin-left: 40px; }

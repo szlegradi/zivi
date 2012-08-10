@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Project: Zivi
+   Author: Szabolcs Legradi <szabolcs.legradi@gmail.com>
+   ========================================================================== */
+
+.panel {
+	background: #fff;	
+	border: 1px solid #c9c9c9;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.09);
+	box-shadow: 0 1px 1px rgba(0,0,0,.09);
+
+	margin: 0 0 24px;
+	padding: 12px 12px 24px;
+}
+
+.panel-with-search { padding-bottom: 0;  }
+.panel-with-search form { margin: 0 -12px; }
+.panel-with-search .form-search { margin-bottom: 0; }
